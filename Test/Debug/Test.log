@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  TestDlg.cpp
+c:\users\ady\documents\visual studio 2012\projects\test\test\testdlg.cpp(169): error C2664: 'CWnd::SetWindowTextW' : cannot convert parameter 1 from 'const char [8]' to 'LPCTSTR'
+          Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\ady\documents\visual studio 2012\projects\test\test\testdlg.cpp(176): error C2665: 'AfxMessageBox' : none of the 2 overloads could convert all the argument types
+          c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(6702): could be 'int AfxMessageBox(LPCTSTR,UINT,UINT)'
+          c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(6704): or       'int AfxMessageBox(UINT,UINT,UINT)'
+          while trying to match the argument list '(const char [15])'
+  Test.cpp
+  Generating Code...
